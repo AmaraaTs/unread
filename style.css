@@ -228,6 +228,7 @@ header article .header-article div .article-writer-1 .write-date {
   height: 20vh;
   display: flex;
   position: relative;
+  background-color: #fafafa;
 }
 
 .section1 article {
@@ -271,4 +272,188 @@ header article .header-article div .article-writer-1 .write-date {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   background-color: rgba(256, 256, 256, 0.5);
+}
+
+.section1 .boxes {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 .boxes .box {
+  width: 19%;
+  height: 40vh;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 18px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+}
+
+.section1 .boxes .box1 {
+  background-image: url("https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/06c81a70abc3c6e36ebe81f34829ed10.jpg");
+}
+
+.section1 .boxes .box2 {
+  background-image: url("https://unread.today/files/ab36d712-71ff-4ad9-896e-6ebb29ee892b/6c7379f6a279651cc886c07f98086bbc.jpg");
+}
+
+.section1 .boxes .box3 {
+  background-image: url("https://unread.today/files/e8e08e0b-2c4f-4f62-83e2-43a512c166d6/03967d2f0f1b319e42ac4c8c2de6b0b3.png");
+}
+
+.section1 .boxes .box4 {
+  background-image: url("https://unread.today/files/e8e08e0b-2c4f-4f62-83e2-43a512c166d6/9a316b70d85cf3d44242613d6a15c809.jpg");
+}
+
+.section1 .boxes .box5 {
+  background-image: url("https://unread.today/files/ab36d712-71ff-4ad9-896e-6ebb29ee892b/15b480dde130301ccfcb83cc83796577.png");
+}
+
+.section1 .boxes .box5 .box-foot .fa-solid {
+  display: none;
+}
+
+.section1 .boxes .box .box-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section1 .boxes .box .box-head .dot {
+  height: 6px;
+  width: 6px;
+}
+
+.section1 .boxes .box .box-head p {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.section1 .boxes .box .box-foot {
+  color: white;
+}
+
+.section1 .boxes .box .box-foot .fa-solid {
+  font-size: 0.8rem;
+}
+
+.section1 .boxes .box .box-foot .fa-comment {
+  margin-left: 10px;
+}
+
+.section1 .boxes .box .box-foot h5 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  width: 90%;
+  font-weight: 700;
+}
+
+.section1 .boxes .box .box-foot h6 {
+  margin-top: 15px;
+  font-size: 0.6rem;
+  padding: 7px 10px;
+  background-color: #0195f7;
+  border-radius: 20px;
+  font-weight: 500;
+  display: inline-flex;
+}
+
+/* section1 duusaw */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-left: 23%;
+  padding-right: 23%;
+  position: relative;
+}
+
+.section2 article {
+  margin-top: 80px;
+}
+
+.section2 article .article-head {
+  display: flex;
+  align-items: center;
+}
+
+.section2 article .article-head img {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+.section2 article .article-head .writer {
+  margin-left: 10px;
+}
+
+.section2 article .article-head .writer .writer-name {
+  color: black;
+  font-size: 0.8rem;
+}
+
+.section2 article .article-head .writer .write-date {
+  margin-top: 3px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+}
+
+.section2 article .article-meaning {
+  margin-top: 13px;
+  background-color: white;
+  width: 35vw;
+  padding: 30px 50px 30px 30px;
+  border-radius: 0 30px 30px 30px;
+  display: flex;
+  box-shadow: 0px 0px 11px -10px rgba(0, 0, 0, 0.75);
+}
+
+.section2 article .article-meaning .topic-box {
+  margin-left: 15px;
+}
+
+.section2 article .article-meaning .topic-box .topic {
+  color: #0195f7;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.section2 article .article-meaning .topic-box h6 {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 700;
+  width: 430px;
+  margin-top: 13px;
+}
+
+.section2 article .article-meaning img {
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 100px;
+}
+
+.section2 .article-rigth {
+  align-self: flex-end;
+}
+
+.section2 .article-rigth .article-head {
+  flex-direction: row-reverse;
+}
+
+.section2 .article-rigth .article-head .writer {
+  margin-left: 0px;
+  margin-right: 13px;
 }
